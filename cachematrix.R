@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions calculate the inverse of a matrix using cache to avoid unnecessary calculation
+## To use them, first we set a list of functions regarding the matrix whose inverse we want to calculate
+## To do that we use the makeCacheMatrix function
+## Then, we do the actual calculation using the cacheSolve function
 
 ## This function creates a matrix whose inverse can be cached
 ## The function creates a list with the following functions:
